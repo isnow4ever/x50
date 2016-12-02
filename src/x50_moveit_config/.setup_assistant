@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: x50_description
+    relative_path: urdf/x50_moveit.urdf
+  SRDF:
+    relative_path: config/x50.srdf
+  CONFIG:
+    generated_timestamp: 1399365899

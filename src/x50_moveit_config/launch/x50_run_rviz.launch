@@ -1,0 +1,9 @@
+<launch>
+
+  <!-- Run Rviz and load the default config to see the state of the move_group node-->
+  <include file="$(find x50_moveit_config)/launch/x50_rviz.launch">
+    <arg name="config" value="true"/>
+  </include>
+  
+
+</launch>

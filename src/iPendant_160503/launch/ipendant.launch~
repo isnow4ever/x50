@@ -1,0 +1,5 @@
+<launch>
+  <node name="keypad" pkg="u_devices" type="keypad" />
+  <node name="joystick" pkg="u_devices" type="joystick" />
+  <node name="ipendant" pkg="ipendant" type="ipendant" required="true" />
+</launch>
